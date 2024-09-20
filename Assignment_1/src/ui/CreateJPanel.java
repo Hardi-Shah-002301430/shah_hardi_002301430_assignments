@@ -9,7 +9,7 @@ import model.Product;
 
 /**
  *
- * @author rohanjauhari
+ * @author hardishah
  */
 public class CreateJPanel extends javax.swing.JPanel {
     Product product;

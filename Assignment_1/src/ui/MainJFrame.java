@@ -8,7 +8,7 @@ import model.Product;
 
 /**
  *
- * @author rohanjauhari
+ * @author hardishah
  */
 public class MainJFrame extends javax.swing.JFrame {
     
