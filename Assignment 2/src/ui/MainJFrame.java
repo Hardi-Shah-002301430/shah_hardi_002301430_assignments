@@ -173,11 +173,11 @@ public class MainJFrame extends javax.swing.JFrame {
     JOptionPane.showMessageDialog(null, "Please type the person detail to view.", "Warning", JOptionPane.WARNING_MESSAGE);
         }
                 txtSearch.setText("");
-    }//GEN-LAST:event_btnSearchActionPerformed
+    }
 
     private void txtSearchActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtSearchActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_txtSearchActionPerformed
+    }
 
     /**
      * @param args the command line arguments
