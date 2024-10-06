@@ -397,14 +397,14 @@ public class ViewSearchJPanel extends javax.swing.JPanel {
 
         layout.linkSize(javax.swing.SwingConstants.VERTICAL, new java.awt.Component[] {txtAge, txtCityH, txtCityW, txtFirstName, txtLastName, txtPhoneH, txtPhoneW, txtSsn, txtStateH, txtStateW, txtStreetH, txtStreetW, txtUnitH, txtUnitW, txtZipH, txtZipW});
 
-    }// </editor-fold>//GEN-END:initComponents
+    }
 
     private void btnBackActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnBackActionPerformed
         // TODO add your handling code here:
         detailsJPanel.remove(this);
         CardLayout layout = (CardLayout) detailsJPanel.getLayout();
         layout. previous (detailsJPanel);
-    }//GEN-LAST:event_btnBackActionPerformed
+    }
 
     private void btnUpdateActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUpdateActionPerformed
         // TODO add your handling code here:
