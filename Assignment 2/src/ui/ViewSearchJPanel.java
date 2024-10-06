@@ -37,8 +37,8 @@ public class ViewSearchJPanel extends javax.swing.JPanel {
         txtStateW.setText ( foundPerson.workAddress.getState());
         txtStreetH.setText ( foundPerson.homeAddress.getStreet());
         txtStreetW.setText( foundPerson.workAddress.getStreet());
-        txtUnitH.setText( Integer.toString(foundPerson.homeAddress.getUnit()));
-        txtUnitW.setText( Integer.toString(foundPerson.workAddress.getUnit()));
+        txtUnitH.setText( Short.toString(foundPerson.homeAddress.getUnit()));
+        txtUnitW.setText( Short.toString(foundPerson.workAddress.getUnit()));
         txtZipH.setText( Integer.toString(foundPerson.homeAddress.getZip()));
         txtZipW.setText ( Integer.toString(foundPerson.workAddress.getZip()));
         
