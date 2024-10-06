@@ -173,7 +173,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         int selectedIndex = tblPeople.getSelectedRow();
         
         if (selectedIndex<0){
-            JOptionPane.showMessageDialog(this,"Please select a row first", "Warning",JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(this,"Please select a row then proceed", "Warning",JOptionPane.WARNING_MESSAGE);
             return;
         }
         
@@ -188,7 +188,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         
         //updating this table
         populateTable();
-                    JOptionPane.showMessageDialog(this,"Person Deleted", "Success",JOptionPane.INFORMATION_MESSAGE);
+                    JOptionPane.showMessageDialog(this,"Person Profile is deleted", "Success",JOptionPane.INFORMATION_MESSAGE);
 
     }//GEN-LAST:event_btnDeleteActionPerformed
 
@@ -204,7 +204,7 @@ public class ViewJPanel extends javax.swing.JPanel {
         int selectedIndex = tblPeople.getSelectedRow();
         
         if (selectedIndex<0){
-            JOptionPane.showMessageDialog(this,"Please select a row first", "Warning",JOptionPane.WARNING_MESSAGE);
+            JOptionPane.showMessageDialog(this,"Please select a row then proceed", "Warning",JOptionPane.WARNING_MESSAGE);
             return;
         }
         Person foundPerson = personDirectory.getHistory().get(selectedIndex);
