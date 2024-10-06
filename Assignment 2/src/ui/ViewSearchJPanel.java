@@ -485,7 +485,7 @@ public class ViewSearchJPanel extends javax.swing.JPanel {
             }
             
             try{
-                Integer.parseInt(txtUnitH.getText());
+               Short.parseShort(txtUnitH.getText());
             }
             catch(NumberFormatException e){
                 JOptionPane.showMessageDialog(this, "Home unit is not a number", "Warning", JOptionPane.WARNING_MESSAGE) ;
@@ -493,7 +493,7 @@ public class ViewSearchJPanel extends javax.swing.JPanel {
             }
             
             try{
-                Integer.parseInt(txtUnitW.getText());
+                Short.parseShort(txtUnitH.getText());
             }
             catch(NumberFormatException e){
                 JOptionPane.showMessageDialog(this, "Work unit is not a number", "Warning", JOptionPane.WARNING_MESSAGE) ;
@@ -505,8 +505,8 @@ public class ViewSearchJPanel extends javax.swing.JPanel {
         foundPerson.setAge(txtAge.getText().getBytes()[0]);
         foundPerson.setLastName(txtLastName.getText());
         foundPerson.setSsn(txtSsn.getText());
-        foundPerson.setHomeAddress(txtStreetH.getText(),txtStateH.getText(),Integer.valueOf(txtZipH.getText()),txtCityH.getText(),Integer.valueOf(txtUnitH.getText()),Long.valueOf(txtPhoneH.getText()));
-        foundPerson.setWorkAddress(txtStreetW.getText(),txtStateW.getText(),Integer.valueOf(txtZipW.getText()),txtCityW.getText(),Integer.valueOf(txtUnitW.getText()),Long.valueOf(txtPhoneW.getText()));
+        foundPerson.setHomeAddress(txtStreetH.getText(),txtStateH.getText(),Integer.valueOf(txtZipH.getText()),txtCityH.getText(),Short.valueOf(txtUnitH.getText()),Long.valueOf(txtPhoneH.getText()));
+        foundPerson.setWorkAddress(txtStreetW.getText(),txtStateW.getText(),Integer.valueOf(txtZipW.getText()),txtCityW.getText(),Short.valueOf(txtUnitW.getText()),Long.valueOf(txtPhoneW.getText()));
         
         
         JOptionPane.showMessageDialog(null, "Account successfully updated.", "Success", JOptionPane.INFORMATION_MESSAGE);

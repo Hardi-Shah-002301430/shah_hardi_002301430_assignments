@@ -26,47 +26,45 @@ public class ViewJPanel extends javax.swing.JPanel {
         initComponents();
         this.personDirectory = personDirectory;
         detailsJPanel = container;
-        if (personDirectory.getHistory().size()==0){
-            Person person1 = personDirectory.addNewPerson();
-            person1.setFirstName("Tony");
+        if (personDirectory.getHistory().size()==0){Person person1 = personDirectory.addNewPerson();
+            person1.setFirstName("Joey");
             person1.setAge("50".getBytes()[0]);
-            person1.setLastName("Stark");
+            person1.setLastName("Tribbiani");
             person1.setSsn("123456789");
-            person1.setHomeAddress("Malibu","California",Integer.valueOf("12345"),"Los Angeles",Integer.valueOf("1"),Long.valueOf("9876543210"));
-            person1.setWorkAddress("Malibu","California",Integer.valueOf("12345"),"Los Angeles",Integer.valueOf("1"),Long.valueOf("9876543210"));
+            person1.setHomeAddress("Newton","MA",Integer.valueOf("12345"),"Los Angeles",Short.valueOf("1"),Long.valueOf("8575647680"));
+            person1.setWorkAddress("Newton","MA",Integer.valueOf("12345"),"Los Angeles",Short.valueOf("1"),Long.valueOf("8575647680"));
             
             Person person2 = personDirectory.addNewPerson();
-            person2.setFirstName("Captain");
+            person2.setFirstName("Rachel");
             person2.setAge("30".getBytes()[0]);
-            person2.setLastName("America");
+            person2.setLastName("Green");
             person2.setSsn("123456789");
-            person2.setHomeAddress("Brooklyn","New York",Integer.valueOf("12345"),"Brooklyn",Integer.valueOf("1"),Long.valueOf("9876543210"));
-            person2.setWorkAddress("Brooklyn","New York",Integer.valueOf("12345"),"Brooklyn",Integer.valueOf("1"),Long.valueOf("9876543210"));
+            person2.setHomeAddress("Sherman Oaks","California",Integer.valueOf("12345"),"Brooklyn",Short.valueOf("1"),Long.valueOf("8575647680"));
+            person2.setWorkAddress("Sherman Oaks","California",Integer.valueOf("12345"),"Brooklyn",Short.valueOf("1"),Long.valueOf("8575647680"));
             
             Person person3 = personDirectory.addNewPerson();
-            person3.setFirstName("Dr");
+            person3.setFirstName("Monica");
             person3.setAge("50".getBytes()[0]);
-            person3.setLastName("Strange");
+            person3.setLastName("Geller");
             person3.setSsn("123456789");
-            person3.setHomeAddress("London","England",Integer.valueOf("12345"),"London",Integer.valueOf("1"),Long.valueOf("9876543210"));
-            person3.setWorkAddress("London","England",Integer.valueOf("12345"),"London",Integer.valueOf("1"),Long.valueOf("9876543210"));
+            person3.setHomeAddress("Birmingham","Alabama",Integer.valueOf("12345"),"London",Short.valueOf("1"),Long.valueOf("8575647680"));
+            person3.setWorkAddress("Birmingham"," Alabama",Integer.valueOf("12345"),"London",Short.valueOf("1"),Long.valueOf("8575647680"));
             
             Person person4 = personDirectory.addNewPerson();
-            person4.setFirstName("Black");
+            person4.setFirstName("Ross");
             person4.setAge("30".getBytes()[0]);
-            person4.setLastName("Panther");
+            person4.setLastName("Geller");
             person4.setSsn("123456789");
-            person4.setHomeAddress("Wakanda","Africa",Integer.valueOf("12345"),"Wakanda",Integer.valueOf("1"),Long.valueOf("9876543210"));
-            person4.setWorkAddress("Wakanda","Africa",Integer.valueOf("12345"),"Wakanda",Integer.valueOf("1"),Long.valueOf("9876543210"));
+            person4.setHomeAddress("Wakanda"," Alabama",Integer.valueOf("12345"),"Wakanda",Short.valueOf("1"),Long.valueOf("8575647680"));
+            person4.setWorkAddress("Wakanda","Alabama",Integer.valueOf("12345"),"Wakanda",Short.valueOf("1"),Long.valueOf("8575647680"));
             
             Person person5 = personDirectory.addNewPerson();
-            person5.setFirstName("Thor");
+            person5.setFirstName("Phoebe");
             person5.setAge("30".getBytes()[0]);
-            person5.setLastName("Odinson");
-            person5.setSsn("123456789");
-            person5.setHomeAddress("Asgard","Heaven",Integer.valueOf("12345"),"Asgard",Integer.valueOf("1"),Long.valueOf("9876543210"));
-            person5.setWorkAddress("Asgard","Heaven",Integer.valueOf("12345"),"Asgard",Integer.valueOf("1"),Long.valueOf("9876543210"));
-            
+            person5.setLastName("Buffay");
+            person5.setSsn("23456789");
+            person5.setHomeAddress("Asgard","Heaven",Integer.valueOf("12345"),"Asgard",Short.valueOf("1"),Long.valueOf("8575647680"));
+            person5.setWorkAddress("Asgard","Heaven",Integer.valueOf("12345"),"Asgard",Short.valueOf("1"),Long.valueOf("8575647680"));
         }populateTable();
     }
 
