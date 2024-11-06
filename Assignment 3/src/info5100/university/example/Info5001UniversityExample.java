@@ -37,7 +37,7 @@ public class Info5001UniversityExample {
         Department department = new Department("Information Systems");
         CourseCatalog coursecatalog = department.getCourseCatalog();
         //Creating courses
-        Course c1 = coursecatalog.newCourse("Neural Modeling Methods and Tools", "INFO 6106", 4);
+        Course c1 = coursecatalog.newCourse("Neural Methods and Tools", "INFO 6106", 4);
         Course c2 = coursecatalog.newCourse("Application Modeling and Design", "INFO 5001", 4);
         Course c3 = coursecatalog.newCourse("Application Engineering and Development", "INFO 5100", 4);
         Course c4 = coursecatalog.newCourse("Business Process Engineering", "INFO 7260", 4);
