@@ -25,7 +25,7 @@ import java.util.HashMap;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 public class Info5001UniversityExample {
 

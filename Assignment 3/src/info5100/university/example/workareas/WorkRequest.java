@@ -9,7 +9,7 @@ import info5100.university.example.Persona.Person;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 public class WorkRequest {
     String task;

@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 public class Employment {
     ArrayList<CourseOffer> relevantcourseoffers;

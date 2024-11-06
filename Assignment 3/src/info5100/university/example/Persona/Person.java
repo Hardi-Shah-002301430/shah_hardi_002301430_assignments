@@ -7,7 +7,7 @@ package info5100.university.example.Persona;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 public class Person {
     

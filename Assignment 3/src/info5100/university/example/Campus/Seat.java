@@ -7,7 +7,7 @@ package info5100.university.example.Campus;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 public class Seat {
     

@@ -7,7 +7,7 @@ package info5100.university.example.CourseCatalog;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 public class Course {
 

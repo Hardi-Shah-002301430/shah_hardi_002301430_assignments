@@ -7,14 +7,14 @@ package info5100.university.example.Persona;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 
 import info5100.university.example.workareas.Workarea;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 public class UserAccount {
     Person person;

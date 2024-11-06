@@ -11,7 +11,7 @@ import java.util.ArrayList;
 
 /**
  *
- * @author kal bugrara
+ * @author hardishah
  */
 public class CourseSchedule {   //schedule of all course offerings in a semester
 
