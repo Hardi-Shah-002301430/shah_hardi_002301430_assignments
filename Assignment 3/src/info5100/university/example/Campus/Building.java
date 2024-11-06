@@ -27,8 +27,8 @@ public class Building {
     }
     public Boolean isBuildingSafe(){
         
-        //Building is safe if all floors are safe
-        return true; //to be completed
+        //Building is safe then check if all floors are safe
+        return true; //to be completed as soon as possible
     }
     
 }
