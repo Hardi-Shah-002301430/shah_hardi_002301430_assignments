@@ -38,11 +38,12 @@ public class Degree {
 
     public boolean isStudentReadyToGraduate(StudentProfile sp) {
 
-        //Extract transcript from studentprofile
+        //Extract transcript from the student profile
         //Extract the list of courses taken so far from the student transcript
         //For each core course in the core list of the degree do the following:
-        //Check if the core class at hand is in the transcrip
+        //Check if the core class at hand is in the transcript
         //Repeat this check for the electives as well
+        //Check for the both core and elective classes
         ArrayList sas = sp.getCourseList(); //seatAssignments extracted from course loads
 
         if (validateCoreClasses(sas) == false) {
