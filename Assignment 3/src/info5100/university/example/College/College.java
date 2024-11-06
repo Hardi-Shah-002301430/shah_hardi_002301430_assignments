@@ -19,6 +19,6 @@ public class College {
         departments = new ArrayList();
         Department is = new Department("Information Systems");
         departments.add(is);
-        System.out.println("Department Added...");
+        System.out.println("Department is added.....");
     }
 }
